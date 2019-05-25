@@ -1,0 +1,96 @@
+and - logical and, eg  True and True
+as - used in import statement to alias imported object, eg from x import z as y, import object z from module x and assigns it name y in local namespace
+assert - asserts that something is True
+break - breaks the loop statement
+class - keyword resserved for class creation
+continue - during loop execution it exits from current code block (suit), and jumps to next value, loop is then continued
+def - keyword for defining functions
+elif - used with if statement, provides way to define alternative branches from if with its own expression
+else - used with if statement, provides way to define branch executed only if every other if and elif statement is evaluated to False
+except - keyword for handling exceptions, used with try, try begins block of code in which we excpect some exception will occur, except begins error handling block of code
+exec - function which executes given statements and returns nothing
+finally - used in try-except statement, when present is always executed after try and except blocks
+for - starts a for loop
+from - used in import statements, eg from x import z
+in - operator which checks if given value is present in seqence eg 'x' in 'xccacaca' is True
+is - operator which checks whether 2 names points to the same object
+lambda - keyword for creating anonymous functions
+not - logical not operator
+or - logical or operator
+pass - empty statement, it does nothing
+print - function printing to terminal
+raise - statement used to raising exceptions
+return - keyword for returning value from method / function
+try - keyword, starts try block it has to be followed by except keyword
+while - starts a while loop
+with - used to work with resources such as files, automatically handles opening and closing of such resources 
+yield - used to create generators, special kind of iterators, that can be iterated over only once bocause results are not stored in memory but generated when needed
+
+True - boolean value
+False - False value
+None - None value, (null value in languages like C)
+bytes - stores bytes values eg b'string', b"string"
+strings - """str""", '''str1''', 'str2', "str3", f'str4{x}', f"str5{x}", f"""str6{x}""", f'''str7{x}'''
+numbers - top class in numbers hierarchy, eg 1, 12e10
+floats - floating point numbers eg 12.3, 123.1, 1e-10
+lists - one of basic containers in pyton, is mutable, it can store different objects eg l = ["123", 123, 0.2]
+dicts - dictonary container, mutable, stores key => value pairs
+
+string escape sequences:
+\\ - backslash
+\' - single quote
+\" - double quote
+\v - vertical tab
+\t - tab
+\n - LF line feed
+\r - CR carret return
+\f - FF form feed
+
+string formats:
+%d - decimal integers
+%i - equivalent of decimal integers
+%o - octal number
+%u - unsigned decimal
+%h - hexadecimal lowercase
+%H - hexadecimal uppercase
+%e - exponential notation, lowercase 'e'
+%E - exponential notation, uppercase 'E'
+%f - floating point real number
+%F same as %f
+%g - %f or %e either is shorter
+%G - same as %g but uppercase E
+%c - character format
+%r - repr format (debbuging format) eg. "%r" % int == "<type 'int'>"
+%s - string format
+%% - percent sign
+
+
+operators
++ addition operator
+- subtraction
+* multiplication
+* power of
+/ division
+// integer division
+% modulo, string interpolation
+< less than
+> more then
+<= less then or equal
+>= more than or equal
+== equal
+!= not equal
+( ) paranthesis
+[] brackets
+{} curly braces
+@ At (decorator)
+, coma
+: colon
+. dot
+= assigment opoerator
++= add an assign
+-= subtract and assign
+*= multiply and assign
+/= divide and assign
+//= integer divide and assign
+%= modulo assign
+**= power assign

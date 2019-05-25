@@ -1,0 +1,82 @@
+return - python keyword, return value from function
+def - python keyword, starts definition of funcion
+* args - all arguments passed to function are stored in args list
+from module import something as name - imports something from module and adds it to local namespace as name, if name is bot present imports it as something
+sys - module containing variables used by interpreter and to functions that interact with interpreter
+os - module containing operating system abstraction
+os.path - module with paths methods
+os.path.exists - method which checks if given file exists
+var1, var2, var3 = object - unpacking syntax, it expects that objects contains exactly 3 values to unpack
+print - prints string value
+"...", '...' - string literal
+round() - rounds a number, default precision = 0
+input(prompt) - prints on terminal prompt, than takes input from terminal until \n character is read
+f"...", f'...' - f-string literal, variables can be embedded inside such string inside {} brackets
+open(filename, mode) - opens file with given filename, returns file object, possible modes r, w, x, a, +, b, t
+file.read() -reads contetns of file
+file.seek(pos) - sets position in file to pos offset
+file.readline() - reads one line of file from current position, changes position offset
+file.tell() - gets current position in file
+file.trunctate(size) - resizes file to given size in bytes
+file.write() - writes to file
+file.close() - closes file
+"".format() - method used to format string
+print(end='') - end parameter is used to put at the end of string given end character, default value=\n
+"""...""", '''...''' - long string every character is put into such string
+f'''...''', f"""...""" - long f-string
+( left paranthesis
+) right paranthesis
+[ left bracket
+] right bracket
+{ left curly bracket
+} right curly bracket
+" double quote
+' single quote
+! exclamation mark
+? question mark
+. dot
+, coma
+: colon
++ plus sign
+% modulo
+- minus sign
+/ slash
+// double slash (integer division)
+True - boolean value
+False - boolean value
+* asterisk
++=, -=, *=, /=, //=, %= - shorter version of x = x + 1: x += 1
+
+comparison operators:
+= equal
+!= not equal
+< less than
+> greater than
+<= less than or equal
+>= greater than or eqal
+is
+is not
+
+boolean operators:
+or
+and
+not
+# hash sign, octophorne, number sign, pound sign
+_ underscore
+
+Escape sequences:
+\\ ASCII backslash
+\' single quote
+\" double quote
+\n LF line feed
+\r CR carret return
+\f FF form feed
+\t tab
+\v vertical tab
+\b backspace
+\a bell
+\N{num} - unicode character by name
+\uxxxx - unicode character with 16 bit hex value
+\Uxxxxxxxx - unicode character with 32 bit hex value
+\ooo - character with octal value ooo
+\xhh - character with hex value hh
